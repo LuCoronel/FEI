@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/style.css">
+    <title>PetShop</title>
+</head>
+<body>
+    <header>
+        <div class="topBar"> <!-- top bar section-->
+            <ul class="topBarCont">
+                <li>Grandes Ofertas en comederos</li>
+            </ul>
+            <ul class="topBarCont">
+                <li>Español</li>
+                <li>ARG$</li>
+            </ul>
+        </div>
+        <div class="navBar"> <!-- nav bar -->
+            <div class="logo">
+                <img src="img/Logo.png" alt="logo">
+            </div>
+            <div class="menuHam">
+                <i class="fas fa-bars"></i>
+            </div>
+            <nav class="menu">
+                <ul class="menu-ul">
+                    <li><i class="fas fa-paw"></i><a href="#">Categorías</a></li>
+                    <li><i class="fas fa-paw"></i><a href="#">Pets</a></li>
+                    <li><i class="fas fa-paw"></i><a href="#">Nosotros</a></li>
+                    <li><i class="fas fa-paw"></i><a href="#">Contactanos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header> 
+        <main> 
+            <div id="imgSlide"> <!-- slide section-->
+                <div class="titulos1">
+                    <h1 class="titulo">¡Es un placer tenerte aqui!</h1>
+                    <h3 class="titulo2">¡Comederos en descuento!</h3>
+                    <button class="mainButton">COMEDEROS</button>
+                </div>
+            </div>   
+        </main>
+        <section>
+                <div class="destacados"> <!-- productos destacados section-->
+                    <img class="imgPaw" src="img/pawprint 1.png" alt="patita">
+                    <h1 class="titulo3">PRODUCTOS DESTACADOS</h1>
+                </div>
+                <div>
+                    <ul class="nav2">
+                        <li><a href="#">Comederos</a></li>
+                        <li><a href="#">Accesorios</a></li>
+                        <li><a href="#">Comida</a></li>
+                    </ul>
+                </div>
+        </section>
+        <section class="contenedor"> <!--cards section -->
+            <div class="card">
+                <div>
+                    <img src="img/Churrasquito.png" alt="galletaChurrasquito">
+                </div>
+                <div>
+                    <p class="pDetail">Juguete churrasquito</p>
+                    <p class="pDetail precio">$150</p>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="img/Comedero.png" alt="comedero">
+                </div>
+                <div>    
+                    <p class="pDetail">Comedero para perro</p>
+                    <p class="pDetail precio">$250</p>
+                </div>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="img/Huesito.png" alt="jugueteHuesito">
+                </div>
+                <div>   
+                    <p class="pDetail">Juguete huesito</p>
+                    <p class="pDetail precio">$650</p>
+                </div>
+            </div>       
+        </section> <!-- formulario section-->
+        <form class="form">
+            <h3 class="formTitle">Contáctanos</h3>
+            <div class="formInput">
+                <input class="input" type="text" name="nombreApellido" placeholder="Nombre y Apellido">
+                <input class="input" type="text" name="email" placeholder="Ingresá tu correo electrónico">
+                <input class="input" type="text" name="telefono" placeholder="Telefono">
+            </div>
+            <div>
+                <button class="formButton reset">Resetear</button>
+                <button class="formButton send">Enviar</button>
+            </div>
+        </form> 
+        <section class="newsletter"> <!-- newsletter section-->
+            <div class="newsLett">
+                <i class="far fa-envelope"></i>
+                <h3 class="newsTitle">Suscríbete para más novedades</h3>
+            </div>
+            <div class="subscription">
+                <input class="inputNews" type="text" name="email" placeholder="Ingresá tu correo electrónico">
+                <button class="newsButton">Suscribirme</button>
+            </div>   
+        </section>
+    <footer>
+        <section class="contactoSection">
+            <div>
+                <div class="contacto">
+                    <div>
+                        <img class="contactoImg" src="img/Icono.png" alt="logo-ubicación">
+                    </div>
+                    <div>
+                        <h4 class="contactoTitle">Localidad</h4>
+                        <p class="contactoDetail">Calle-provincia</p>
+                    </div>
+                </div>
+                <div class="contacto">
+                    <div>
+                        <img class="contactoImg" src="img/Icono-2.png" alt="logo-teléfono">
+                    </div>
+                    <div>
+                        <h4 class="contactoTitle">Teléfono</h4>
+                        <p class="contactoDetail">Número de teléfono</p>
+                    </div>
+                </div>
+                <div class="contacto">
+                    <div>
+                        <img class="contactoImg" src="img/Icono-1.png" alt="logo-email">
+                    </div>
+                    <div>
+                        <h4 class="contactoTitle">Correo Electrónico</h4>
+                        <p class="contactoDetail">Dirección de correo</p>
+                    </div>
+                </div>
+            </div>     
+            <div>
+                <img class="logo-footer" src="img/Logofooter.png" alt="logo">
+            </div>
+        </section>
+        <div id="copyright">
+            <p>Todos los derechos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
