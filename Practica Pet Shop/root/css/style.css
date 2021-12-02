@@ -70,8 +70,8 @@ body {
 /**** MAIN ****/ 
 /**** slide section ****/
 
-#imgSlide {
-    background-image: url(/img/foto.png);
+.imgSlide {
+    background-image: url(/img/fondo.png);
     background-size: cover;
     height: 409px;
     display: flex;
